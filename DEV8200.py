@@ -107,12 +107,9 @@ def create_table():
     </html>
     """
 
-    #html_response = HtmlResponse(response)
     return HTMLResponse(content=response, status_code=200)
-    #return response
 
 if __name__ == "__main__":
 
     uvicorn.run(app, host="127.0.0.1", port=8080, log_level="info")
-    #print(create_table())
     print("Finished.")
