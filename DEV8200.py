@@ -35,7 +35,7 @@ class ParserAPI:
 
             headers = {
                 'x-rapidapi-host': "v3.football.api-sports.io",
-                'x-rapidapi-key':  "b1035ff6831d179f86481c028bcf0836"
+                'x-rapidapi-key':  "XXXXXXXXXXXXXXXXXXXXXXXXXX"
             }
 
             conn.request("GET", "/players/topscorers?season=2018&league=61", headers=headers)
