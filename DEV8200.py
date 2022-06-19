@@ -1,23 +1,17 @@
-import csv
 import http
 import json
-import struct
-import unittest
-import pandas as pd
-import heapq
 import uvicorn
 from fastapi import FastAPI
 import http.client
 
 from starlette.responses import HTMLResponse
 from tabulate import tabulate
-from scrapy.http import HtmlResponse
 
 """
 A parser api script, using fast-api.
 
-Author: Nir Nicole
-Date: 18/06/22
+Author:
+Date: 19/06/22
 """
 
 
